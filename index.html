@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="font-manrope">
+<!--bonus part nav start-->
+<div class="navbar bg-base-100">
+  <div class="navbar-start" style="margin-left: 80px;">
+    <a class="btn btn-ghost text-3xl font-extrabold">Hockey</a>
+  </div>
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+      </div>
+      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a><span style="color: red;">Home</span></a></li>
+        <li><a>About</a></li>
+        <li><a>Page</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+ 
+  <div class="navbar-end">
+    <button class="btn" style="margin-left: 10px;">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" style="margin-left: 150px;" /></svg>
+    </button>
+    <div class="navbar-end">
+      <a class="btn" style="background-color: red;margin-left: -5px; margin-left: 15px; color: white; width: 100px; ">Button</a>
+    </div>
+  </div>
+</div>
+   
+<!--bonus part nav end-->
+<!--main part one or header start-->
+    <header class="container mx-auto py-3">
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            
+            <div id="slide2" class="carousel-item relative w-full">
+              
+              <img src="Images/2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+          
+<!--main part one or header end-->
+
+
+    </header>
+    <main>
+<!--main part two start-->
+<section class="container mx-auto ">
+    <div class="progress ">
+      <h3 class="font-extrabold text-3xl  mt-6" style="text-align: center;">
+        Professional Hockeys Club
+      </h3>
+
+      <p class="font-normal mt-6" style="text-align: center; font-size: 18px;">
+        There are many types of hockey. Some games make the use of skates, either <br> wheeled or bladed, 
+        while others do not. In order to help make the distinction between these  <br>various games.
+      </p>
+<div class="prog-part ml-8 mt-5 grid grid grid-cols-1 md:grid-cols-4 flex">
+   <div class="prog-part-one align-middle mt-4 ml-4">
+    <div class="radial-progress mt-4" style="--value:87;
+     color: rgb(247, 74, 74);" role="progressbar">87%</div>
+    <h4 class="mt-4">Player facility</h4>
+   <p class="font-normal mt-4">
+    outdoor game played by <br>
+    two opposing teams of <br>
+    11 players. 
+  </p>
+   </div><!--prog-part-one end-->
+
+   <div class="prog-part-two align-middle mt-4 ml-4">
+    <div class="radial-progress" style="--value:95; 
+    color: rgb(106, 196, 106);" role="progressbar">95%</div>
+    <h4 class="mt-4">Experienced Coach</h4>
+   <p class="font-normal mt-4">
+    Teams must move a hockey ball<br> around a pitch by hitting<br>
+           it with a hockey stick.<br>
+  </p>
+   </div><!--prog-part-two end-->
+
+   <div class="prog-part-three align-middle mt-4 ml-4">
+    <div class="radial-progress" 
+    style="--value:90;--value:90; color: rgb(219, 185, 122);" role="progressbar">90%</div>
+    <h4 class="mt-4">Senior Player</h4>
+   <p class="font-normal mt-4">
+    outdoor game played by <br>
+          two opposing teams of 11 players. 
+  </p>
+   </div><!--prog-part-three end-->
+   
+   <div class="prog-part-four align-middle mt-4 ml-4">
+    <div class="radial-progress" 
+    style="--value:90;--value:80; color: rgb(73, 73, 192);" role="progressbar">80%</div>
+    <h4 class="mt-4">Traning Ground</h4>
+   <p class="font-normal  mt-4">
+    Teams must move a hockey ball<br> around a pitch by hitting<br>
+    it with a hockey stick.<br>
+  </p>
+   </div><!--prog-part-four end-->
+   
+
+</div><!--prog-part end-->
+
+
+    </div><!--progress end-->
+</section>
+<!--main part two end-->
+
+<!--main part three start-->
+<section class="container mx-auto my-12">
+  <h3 class="text-5xl font-extrabold" style="align-items: center;">
+    Program Sections
+  </h3>
+  <p class="text-2xl font-medium align-center my-12  grid grid-cols-1 md:grid-cols-2">
+    The rink is divided into three sections by two blue lines. <br>
+    The defensive zone is where your goal is, and the opponent's <br>
+    goal is in the offensive zone.
+  </p>
+  <div class="flex flex-row gap-6">
+   <!--first img-->
+   <div class="card  image-full flex flex-row gap-6 my-12 grid grid-cols-1 md:grid-cols-2">
+    <figure><img src="Images/2.png" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">Professional Program</h2>
+      <p>our Elite Hockey Program emphasizes the development <br>
+        of a well-rounded player through highly qualified and experienced coaching. </p>
+      <div class="card-actions justify-start">
+        <button class="btn my-0" style="color: aliceblue; background-color: red;">Register now</button>
+      </div>
+    </div>
+  </div>
+  <!--2nd img-->
+  <div class="card  image-full flex flex-row gap-6 my-12">
+    <figure><img src="Images/3.png" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">Professional Program</h2>
+      <p>our Elite Hockey Program emphasizes the development <br>
+        of a well-rounded player through highly qualified and experienced coaching. </p>
+      <div class="card-actions justify-start">
+        <button class="btn my-0" style="color: aliceblue; background-color: red;">Register now</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div>
+    <div class="card  image-full flex flex-row gap-6">
+      <figure><img src="Images/4.png" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Professional Program</h2>
+        <p>our Elite Hockey Program emphasizes the development <br>
+          of a well-rounded player through highly qualified and experienced coaching. </p>
+        <div class="card-actions justify-start">
+          <button class="btn my-0" style="color: aliceblue; background-color: red;">Register now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--main part three start-->
+
+<!--main part four start-->
+<div class="section">
+  <div class="container mx-auto">
+    <h3 class="text-5xl font-extrabold text-center my-12">
+      Our New Products
+    </h3>
+    <p class="text-3xl font-normal text-center my-12">
+      HockeyShot is your ultimate source for the best hockey training aids online. 
+    </p>
+    <div class="Products grid grid-cols-1 md:grid-cols-2">
+      <div class="grid grid-rows-3 grid-flow-col gap-4 bg-secondary-content ">
+        <div class="row-span-3 "><img src="Images/5.png" alt="">
+        </div><!--row span 3 end-->
+        <div class="col-span-2  mt-5">
+          <div class="info-one flex gap-2">
+            <div class="flex gap-2">
+              <img src="Images/star (1).png" alt="" style="width: 20px; height: 20px;">
+              5.0
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/view.png" alt="" style="width: 20px; height: 20px;">
+              20
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/heart.png" alt="" style="width: 20px; height: 20px;">
+              200
+            </div>
+          </div><!--info-one end-->
+        </div><!--col span 2 end-->
+        <div class="row-span-2 col-span-2 ">
+          <h4 class="txt-2xl font-extrabold align-center ">
+            World Cup Flags Football
+          </h4>
+          <p class="txt-2xl font-normal align-center ">
+            Find a range of Hockey Equipment <br> in our Hockey Shop.
+          </p>
+          <div class="flex gap-2">
+            <span style="color: red;">Price - $22.00</span>
+      
+            <img src="Images/shopping-cart.png" alt="" style="width: 20px; height: 20px;">
+            Delivery Fee : Free
+          </div>
+        </div><!--row span-2 and col span-2 end-->
+      </div>
+      
+      <!--2nd product-->
+      <div class="grid grid-rows-3 grid-flow-col gap-4 bg-secondary-content ">
+        <div class="row-span-3 "><img src="Images/6.png" alt="">
+        </div><!--row span 3 end-->
+        <div class="col-span-2  mt-5">
+          <div class="info-one flex gap-2">
+            <div class="flex gap-2">
+              <img src="Images/star (1).png" alt="" style="width: 20px; height: 20px;">
+              5.0
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/view.png" alt="" style="width: 20px; height: 20px;">
+              20
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/heart.png" alt="" style="width: 20px; height: 20px;">
+              200
+            </div>
+          </div><!--info-one end-->
+        </div><!--col span 2 end-->
+        <div class="row-span-2 col-span-2 ">
+          <h4 class="txt-2xl font-extrabold align-center ">
+            World Cup Flags Football
+          </h4>
+          <p class="txt-2xl font-normal align-center ">
+            Find a range of Hockey Equipment <br> in our Hockey Shop.
+          </p>
+          <div class="flex gap-2">
+            <span style="color: red;">Price - $22.00</span>
+      
+            <img src="Images/shopping-cart.png" alt="" style="width: 20px; height: 20px;">
+            Delivery Fee : Free
+          </div>
+        </div><!--row span-2 and col span-2 end-->
+      </div>
+
+       <!--3rd product-->
+       <div class="grid grid-rows-3 grid-flow-col gap-4 bg-secondary-content mt-4">
+        <div class="row-span-3 "><img src="Images/7.png" alt="">
+        </div><!--row span 3 end-->
+        <div class="col-span-2  mt-5">
+          <div class="info-one flex gap-2">
+            <div class="flex gap-2">
+              <img src="Images/star (1).png" alt="" style="width: 20px; height: 20px;">
+              5.0
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/view.png" alt="" style="width: 20px; height: 20px;">
+              20
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/heart.png" alt="" style="width: 20px; height: 20px;">
+              200
+            </div>
+          </div><!--info-one end-->
+        </div><!--col span 2 end-->
+        <div class="row-span-2 col-span-2 ">
+          <h4 class="txt-2xl font-extrabold align-center ">
+            World Cup Flags Football
+          </h4>
+          <p class="txt-2xl font-normal align-center ">
+            Find a range of Hockey Equipment <br> in our Hockey Shop.
+          </p>
+          <div class="flex gap-2">
+            <span style="color: red;">Price - $22.00</span>
+      
+            <img src="Images/shopping-cart.png" alt="" style="width: 20px; height: 20px;">
+            Delivery Fee : Free
+          </div>
+        </div><!--row span-2 and col span-2 end-->
+      </div>
+      
+       <!--4th product-->
+       <div class="grid grid-rows-3 grid-flow-col gap-4 bg-secondary-content mt-4">
+        <div class="row-span-3 "><img src="Images/8.png" alt="">
+        </div><!--row span 3 end-->
+        <div class="col-span-2  mt-5">
+          <div class="info-one flex gap-2">
+            <div class="flex gap-2">
+              <img src="Images/star (1).png" alt="" style="width: 20px; height: 20px;">
+              5.0
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/view.png" alt="" style="width: 20px; height: 20px;">
+              20
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/heart.png" alt="" style="width: 20px; height: 20px;">
+              200
+            </div>
+          </div><!--info-one end-->
+        </div><!--col span 2 end-->
+        <div class="row-span-2 col-span-2 ">
+          <h4 class="txt-2xl font-extrabold align-center ">
+            World Cup Flags Football
+          </h4>
+          <p class="txt-2xl font-normal align-center ">
+            Find a range of Hockey Equipment <br> in our Hockey Shop.
+          </p>
+          <div class="flex gap-2">
+            <span style="color: red;">Price - $22.00</span>
+      
+            <img src="Images/shopping-cart.png" alt="" style="width: 20px; height: 20px;">
+            Delivery Fee : Free
+          </div>
+        </div><!--row span-2 and col span-2 end-->
+      </div> 
+
+      <!--5th product-->
+      <div class="grid grid-rows-3 grid-flow-col gap-4 bg-secondary-content mt-4 ">
+        <div class="row-span-3 "><img src="Images/8.png" alt="">
+        </div><!--row span 3 end-->
+        <div class="col-span-2  mt-5">
+          <div class="info-one flex gap-2">
+            <div class="flex gap-2">
+              <img src="Images/star (1).png" alt="" style="width: 20px; height: 20px;">
+              5.0
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/view.png" alt="" style="width: 20px; height: 20px;">
+              20
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/heart.png" alt="" style="width: 20px; height: 20px;">
+              200
+            </div>
+          </div><!--info-one end-->
+        </div><!--col span 2 end-->
+        <div class="row-span-2 col-span-2 ">
+          <h4 class="txt-2xl font-extrabold align-center ">
+            World Cup Flags Football
+          </h4>
+          <p class="txt-2xl font-normal align-center ">
+            Find a range of Hockey Equipment <br> in our Hockey Shop.
+          </p>
+          <div class="flex gap-2">
+            <span style="color: red;">Price - $22.00</span>
+      
+            <img src="Images/shopping-cart.png" alt="" style="width: 20px; height: 20px;">
+            Delivery Fee : Free
+          </div>
+        </div><!--row span-2 and col span-2 end-->
+      </div>
+
+      <!--6th product-->
+      <div class="grid grid-rows-3 grid-flow-col gap-4 bg-secondary-content mt-4">
+        <div class="row-span-3 "><img src="Images/9.png" alt="">
+        </div><!--row span 3 end-->
+        <div class="col-span-2  mt-5">
+          <div class="info-one flex gap-2">
+            <div class="flex gap-2">
+              <img src="Images/star (1).png" alt="" style="width: 20px; height: 20px;">
+              5.0
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/view.png" alt="" style="width: 20px; height: 20px;">
+              20
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/heart.png" alt="" style="width: 20px; height: 20px;">
+              200
+            </div>
+          </div><!--info-one end-->
+        </div><!--col span 2 end-->
+        <div class="row-span-2 col-span-2 ">
+          <h4 class="txt-2xl font-extrabold align-center ">
+            World Cup Flags Football
+          </h4>
+          <p class="txt-2xl font-normal align-center ">
+            Find a range of Hockey Equipment <br> in our Hockey Shop.
+          </p>
+          <div class="flex gap-2">
+            <span style="color: red;">Price - $22.00</span>
+      
+            <img src="Images/shopping-cart.png" alt="" style="width: 20px; height: 20px;">
+            Delivery Fee : Free
+          </div>
+        </div><!--row span-2 and col span-2 end-->
+      </div>
+
+
+    </div><!--products end-->
+  </div><!--container end-->
+</div><!--section end-->
+<!--main part four end-->
+    </main>
+
+    <!--footer part start-->
+    <footer>
+      <footer class="footer p-10 bg-neutral text-neutral-content grid ">
+        <nav>
+          <h3 class="footer-title font-extrabold text-3xl">Get In Touch</h3> 
+          <a class="link link-hover font-normal">Please contact us and we will be pleased <br> 
+            to respond to any questions you have about our Club.</a>
+            <div class="flex gap-2">
+              <img src="Images/email.png" alt="" style="width: 20px; height: 20px;"> 
+              <a class=" link link-hover">ahsanrifatliza@gmail.com</a>
+            </div>
+            <div class="flex gap-2">
+              <img src="Images/call.png" alt="" style="width: 20px; height: 20px;"> 
+              <a class=" link link-hover">+8801556321587</a>
+            </div>
+            
+        </nav> 
+        <nav class="grid grid-cols-2 md:grid-cols-1">
+          <h6 class="footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Leadership</a>
+          <a class="link link-hover">Careers</a>
+          <a class="link link-hover">News & Article</a>
+          <a class="link link-hover">Legal Notice</a>
+        </nav> 
+        <nav class="grid grid-cols-2 md:grid-cols-1">
+          <h6 class="footer-title">Support</h6> 
+          <a class="link link-hover">Help Center></a>
+          <a class="link link-hover">FAQ</a>
+          <a class="link link-hover">Ticket Support</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav>
+        <nav class="grid grid-cols-1 md:grid-cols-1">
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Academy</a>
+          <a class="link link-hover">Group Lesson</a>
+          <a class="link link-hover">Private lesson</a>
+          <a class="link link-hover">Hockey For Kids</a>
+          <a class="link link-hover">Hockey For Adult</a>
+        </nav>
+      </footer>
+    </footer>
+    <!--footer part end-->
+    
+</body>
+<!--main part two start-->
+<!--main part two end-->
+</html>
